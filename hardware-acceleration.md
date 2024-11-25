@@ -1,4 +1,4 @@
-# Hardware Accerleration Resources
+# Hardware Acceleration Resources
 
   Freedreno Turnip: https://drive.google.com/file/u/0/d/1f4pLvjDFcBPhViXGIFoRE3Xc8HWoiqG-/view?pli=1
   - plays nicely with virgl, just use LIBGL_KOPPER_DISABLE and the classic GALLIUM_DRIVER to control when to use it. latest precompiled version I could find.
