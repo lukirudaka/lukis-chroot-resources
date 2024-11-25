@@ -1,6 +1,6 @@
 # Yes, really
 
-Steam can be run, but it has to be within Box64droid's old chroot environment AND using a different version of WINE that box64droid doesn't come with.
+Steam can be run, but it has to be within Box64droid's old chroot environment AND using a different version of WINE that box64droid doesn't come with. You can run it with the WINE version box64droid comes with, but SteamDRM will be broken and cause a lot of games to close instantly because they don't detect Steam running.
 You also will probably have to run an old version of steam as CEF, being chromium-based, eats up all the RAM, and it makes it even worse if you run it under box64.
 
 First off, you'll need that custom version of WINE. It's WINE GE. Go grab it from here and replace the wine install located at /opt/wine in the rootfs with it: https://github.com/GloriousEggroll/wine-ge-custom
