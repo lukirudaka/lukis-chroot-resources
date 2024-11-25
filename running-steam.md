@@ -10,3 +10,5 @@ then once you're done configuring your games, I would suggest adding BOX64_EXIT=
 Note that this will break opening game properties, and uninstalling games, so comment it out if you want to uninstall anything or add any launch flags.
 
 Also use DXVK-GPLASYNC to get DXVK 2.5. It runs way faster than anything Box64droid provides in that old chroot.
+
+If you're making something similar to DEXtop, I would suggest putting the rootfs under something like "/opt/wineroot" or just "/box64rootfs" or something. I dunno, somewhere inside your DEXtop rootfs.
