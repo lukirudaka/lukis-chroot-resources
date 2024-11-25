@@ -12,3 +12,4 @@ The things that break are pretty crucial for me, such as the ability to compile 
   Ubuntu Lunar Lobster is the last version of Ubuntu to use GLIBc older than 2.38. Anything newer than this will break. (sigh)
 
 ## ANYTHING ROLLING RELEASE WILL BREAK. Sorry arch fans.
+we can still be friends, right? TwT
