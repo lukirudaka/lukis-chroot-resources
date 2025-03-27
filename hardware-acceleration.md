@@ -13,7 +13,10 @@
   - some vendor drivers for qualcomm SOCs dont expose all vulkan APIs so use the freedreno driver if you can.  
   
 Someone recently made a vulkan wrapper ICD for Termux that allows you to keep vulkan-loader-generic, and it's being mirrored at https://github.com/sabamdarif/termux-desktop/releases.  
-I have also gotten virtio-gpu VENUS going which allows the wrapper ICD mentioned above to pass it's driver through to the proot!
+I have also gotten virtio-gpu VENUS going which allows the wrapper ICD mentioned above to pass it's driver through to the proot! In order for this to work, the following environment variables need to be set in the proot/chroot environment:
+```
+VN_DEBUG=vtest VK_DRIVER_FILES=/usr/share/vulkan/icd.d/virtio_icd.aarch64.json
+```
   
   panfrost VK?? (rumored)
   - can't find any evidence to back this up, don't have a way to try it either as I have no devices with Mali GPUs as of right now. only powervr and qualcomm lol
