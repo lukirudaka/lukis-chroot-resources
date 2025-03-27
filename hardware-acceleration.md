@@ -14,4 +14,4 @@ VN_DEBUG=vtest VK_DRIVER_FILES=/usr/share/vulkan/icd.d/virtio_icd.aarch64.json
   You can also run virgl_test_server_android at the same time so long as you pass ```virgl_test_server --venus --no-virgl``` instead of just running ```virgl_test_server --venus```. If you're on an Exynos SOC with an Xclipse GPU, it's best to run Venus and virgl_test_server_android at the same time, with virgl_test_server_android having the ```--angle-vulkan``` option on.
   
   panfrost VK?? (rumored)
-  - can't find any evidence to back this up, don't have a way to try it either as I have no devices with Mali GPUs as of right now. only powervr and qualcomm lol
+  - can't find any evidence to back this up, don't have a way to try it either as I have no devices with Mali GPUs as of right now. only xclipse lol
