@@ -10,7 +10,10 @@
   - native termux only :(
   - passes vulkan drivers from the system to Termux
   - should we ever get virtio vulkan working, this'll be the way to go for anyone not using a qualcomm SOC.
-  - some vendor drivers for qualcomm SOCs dont expose all vulkan APIs so use the freedreno driver if you can.
-
+  - some vendor drivers for qualcomm SOCs dont expose all vulkan APIs so use the freedreno driver if you can.  
+  
+Someone recently made a vulkan wrapper ICD for Termux that allows you to keep vulkan-loader-generic, and it's being mirrored at https://github.com/sabamdarif/termux-desktop/releases.  
+I have also gotten virtio-gpu VENUS going which allows the wrapper ICD mentioned above to pass it's driver through to the proot!
+  
   panfrost VK?? (rumored)
   - can't find any evidence to back this up, don't have a way to try it either as I have no devices with Mali GPUs as of right now. only powervr and qualcomm lol
